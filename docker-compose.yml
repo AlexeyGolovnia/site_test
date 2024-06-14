@@ -2,8 +2,6 @@ services:
   web:
     build: .
     command: gunicorn --bind 0.0.0.0:5000 app:app
-#    expose:
-#      - 5000
     ports:
       - 5000:5000
 
@@ -15,3 +13,4 @@ services:
     ports:
       - 80:80
       - 443:443
+
