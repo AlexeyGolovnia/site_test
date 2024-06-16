@@ -1,13 +1,13 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #0A0F24;
+    background-color: #c0d2f0;
     color: #FFFFFF;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #0A0F24;
+    background-color: #0a8da4;
     padding: 10px 0;
 }
 
@@ -35,6 +35,16 @@ main {
 
 .intro {
     margin-bottom: 30px;
+}
+
+.intro-text {
+    max-width: 50%;
+    padding: 20px;
+}
+
+.intro-photo img {
+    max-width: 300px;
+    border-radius: 8px;
 }
 
 .intro h1 {
