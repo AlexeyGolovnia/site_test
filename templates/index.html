@@ -30,17 +30,18 @@
 
         .header {
             grid-area: a;
-            background-color: #fa2732;
         }
 
         .intro-text {
             grid-area: b;
-            align-self: end;
+            font-family: "Arial", sans-serif;
             padding: 20px;
-            background-color: #3ae679;
-            justify-content: space-between;
-            align-items: flex-end;
-            width: 100%;
+            background-color: #c0d2f0;
+            display: flex;
+            flex-direction: column;
+            justify-content: end;
+            align-items: center;
+            text-align: center;
         }
 
         .intro-text h1 {
@@ -55,16 +56,16 @@
 
         .intro-photo {
             grid-area: c;
-            height: 100%;
+            background-color: #c0d2f0;
             display: flex;
             justify-content: center;
-            background-color: #010a04;
+            align-items: flex-end;
         }
 
         .intro-photo img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
+            width: 90%;
+            height: 90%;
+            display: flex;
         }
 
         .social-links img {
@@ -79,6 +80,16 @@
         .social-links a {
             margin: 0 10px;
             display: inline-block;
+        }
+
+        button {
+            background-color: #1E90FF;
+            color: #FFFFFF;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1em;
+            cursor: pointer;
+            margin-top: 20px;
         }
 
     </style>
