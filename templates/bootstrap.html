@@ -1,11 +1,106 @@
-<!doctype html>
-<html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Демо Bootstrap</title>
-  </head>
-  <body>
-    <h1>Привет мир!</h1>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid Example</title>
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: auto auto auto;
+            grid-template-areas:
+                "a b c"
+                "d e f"
+                "g h h";
+            gap: 10px;
+            padding: 10px;
+        }
+        .grid-item {
+            background-color: #8ca0ff;
+            padding: 20px;
+            text-align: center;
+            line-height: 3;
+            /* font-size: 1.2em; */
+        }
+        .item1 { grid-area: a; }
+        .item2 { grid-area: b; }
+        .item3 { grid-area: c; }
+        .item4 { 
+            grid-area: d;
+            background-color: #42e0b1;
+            font-family: 'Arial', sans-serif;
+            font-size: 20px;
+            line-height: normal;
+            /* line-height: 0.9; */
+         }
+        .item5 { grid-area: e; }
+        .item6 { grid-area: f; }
+        .item7 { grid-area: g; }
+        .item8 { grid-area: h; }
+    </style>
+</head>
+<body>
+    {% include 'header.html' %}
+
+    <div class="grid-container">
+        <div class="grid-item item1">1</div>
+        <div class="grid-item item2">2</div>
+        <div class="grid-item item3">3</div>
+        <div class="grid-item item4">4</div>
+        <div class="grid-item item5">5</div>
+        <div class="grid-item item6">6</div>
+        <div class="grid-item item7">7</div>
+        <div class="grid-item item8">8</div>
+    </div>
+</body>
 </html>
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid Example</title>
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            gap: 0px;
+            padding: 0px;
+        }
+        .grid-item {
+            background-color: #8ca0ff;
+            padding: 20px;
+            text-align: center;
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="grid-item">1</div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">3</div>
+        <div class="grid-item">4</div>
+        <div class="grid-item">5</div>
+        <div class="grid-item">6</div>
+    </div>
+</body>
+</html> -->
+
+
+
+<!-- <div class="col-sm-8">
+    <span class="badge text-bg-primary">Primary</span>
+    <span class="badge text-bg-secondary">Secondary</span>
+    <span class="badge text-bg-success">Success</span>
+    <span class="badge text-bg-danger">Danger</span>
+    <span class="badge text-bg-warning">Warning</span>
+    <span class="badge text-bg-info">Info</span>
+    <span class="badge text-bg-light">Light</span>
+    <span class="badge text-bg-dark">Dark</span>
+</div> -->
