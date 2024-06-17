@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Сергей Старостин - Веб-дизайнер</title>
+    <title>Алексей Головня - Веб-дизайнер</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
 </head>
 <body>
@@ -21,23 +21,24 @@
     <main>
         <section class="intro">
             <div class="intro-text">
-                <h1>Сергей Старостин<br>Веб-дизайнер</h1>
+                <h1>Алексей Головня<br>Веб-дизайнер</h1>
                 <p>Дизайн сайтов,<br>проектирование интерфейсов.</p>
-                <p>Меня зовут Сергей, я веб-дизайнер. Я создаю адаптивные сайты, проектирую интерфейсы. Работаю с анимацией.</p>
+                <p>Меня зовут Алексей, я веб-дизайнер. Я создаю адаптивные сайты, проектирую интерфейсы. Работаю с анимацией.</p>
                 <button>Подробнее</button>
                 <div class="social-links">
                     <a href="#"><img src="{{ url_for('static', filename='img/linkedin.webp') }}" alt="LinkedIn"></a>
                     <a href="#"><img src="{{ url_for('static', filename='img/github.png') }}" alt="github"></a>
                     <a href="#"><img src="{{ url_for('static', filename='img/vk.jpg') }}" alt="VK"></a>
                 </div>
+                <p>+48 789 770 969</p>
             </div>
             <div class="intro-photo">
                 <img src="{{ url_for('static', filename='img/photo.png') }}" alt="Profile Photo">
             </div>
         </section>
-        <aside class="contact-info">
+        <!-- <aside class="contact-info">
             <p>+48 789 770 969</p>
-        </aside>
+        </aside> -->
     </main>
 </body>
 </html>

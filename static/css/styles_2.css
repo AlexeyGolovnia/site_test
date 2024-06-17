@@ -1,9 +1,14 @@
+
 body {
     font-family: Arial, sans-serif;
     background-color: #c0d2f0;
-    color: #FFFFFF;
+    color: #040404;
     margin: 0;
     padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* max-width: 1170px; */
 }
 
 header {
@@ -29,12 +34,20 @@ nav ul li a {
 }
 
 main {
+    flex: 1; /* Allow the main content to take the remaining space */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center the content vertically */
+    align-items: center;
     text-align: center;
-    padding: 50px 0;
+    width: 100%; /* Ensure it takes the full width */
 }
 
 .intro {
-    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between; /* Changed from center to space-between */
+    align-items: flex-end; /* Align items to the bottom */
+    width: 100%; /* Ensure it takes the full width */
 }
 
 .intro-text {
@@ -42,9 +55,15 @@ main {
     padding: 20px;
 }
 
+.intro-photo {
+    display: flex;
+    align-items: flex-end; /* Align the image to the bottom of the container */
+}
+
 .intro-photo img {
-    max-width: 300px;
-    border-radius: 8px;
+    height: 30vh; /* 80% of the viewport height */
+    max-width: 100%; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensure the image covers the height */
 }
 
 .intro h1 {
@@ -83,6 +102,17 @@ button:hover {
 .social-links img {
     width: 24px;
     height: 24px;
+}
+
+.intro-photo {
+    display: flex;
+    align-items: flex-end; /* Align the image to the bottom of the container */
+}
+
+.intro-photo img {
+    height: 100vh; /* Full viewport height */
+    max-width: 100%; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensure the image covers the entire height */
 }
 
 .contact-info {
