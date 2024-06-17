@@ -2,19 +2,21 @@
 <header>
     <style>
         header {
-            background-color: #0A0F24;
+            background-color: #0a8da4;
             padding: 10px 0;
+            font-family: 'Arial', sans-serif;
+            font-size: 20px;
         }
 
         nav ul {
             list-style-type: none;
             padding: 0;
-            text-align: center;
+            text-align: left;
         }
 
         nav ul li {
             display: inline;
-            margin: 0 15px;
+            margin: 0 25px;
         }
 
         nav ul li a {
@@ -23,7 +25,7 @@
             font-weight: bold;
         }
     </style>
-    
+
     <nav>
         <ul>
             <li><a href="{{ url_for('home') }}">Главная</a></li>
