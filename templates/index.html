@@ -58,14 +58,15 @@
             grid-area: c;
             background-color: #c0d2f0;
             display: flex;
-            justify-content: center;
-            align-items: flex-end;
+            flex-direction: column;
+            justify-content: end;
+            align-items: center;
         }
 
         .intro-photo img {
             width: 90%;
             height: 90%;
-            display: flex;
+            object-fit: contain;
         }
 
         .social-links img {
@@ -103,9 +104,9 @@
             {% include 'header.html' %}
         </div>
         <div class="intro-text">
-            <h1>Алексей Головня<br>Веб-дизайнер</h1>
-            <p>Дизайн сайтов,<br>проектирование интерфейсов.</p>
-            <p>Меня зовут Алексей, я веб-дизайнер. Я создаю адаптивные сайты, проектирую интерфейсы. Работаю с анимацией.</p>
+            <h1>Alexey Golovnia<br>Data Engineer</h1>
+            <p>Business processees -<br>analysis and automation.</p>
+            <p>As a dedicated Data Engineer with a robust background in business analysis and the automation of business processes, I bring a comprehensive skill set that merges technical expertise with strategic insight.</p>
             <button>Подробнее</button>
             <div class="social-links">
                 <a href="#"><img src="{{ url_for('static', filename='img/linkedin.webp') }}" alt="LinkedIn"></a>
@@ -115,7 +116,7 @@
             <p>+48 789 770 969</p>
         </div>
         <div class="intro-photo">
-            <img src="{{ url_for('static', filename='img/photo.png') }}" alt="Profile Photo">
+            <img src="{{ url_for('static', filename='img/photo4.png') }}" alt="Profile Photo">
         </div>
     </div>
 
