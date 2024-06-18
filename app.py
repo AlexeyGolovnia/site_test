@@ -11,5 +11,9 @@ def home():
 def portfolio():
     return render_template('portfolio.html')
 
+@app.route('/contacts')
+def contacts():
+    return render_template('contacts.html')
+
 if __name__ == '__main__':
     app.run(host='0.0.0.0', debug=True, port='4999')
