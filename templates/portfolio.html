@@ -3,33 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Портфолио - Алексей Головня</title>
+    <title>Projects - Alexey Golovnia</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
     <style>
-        .projects img {
-            width: 1024px;
+        
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #c0d2f0;
+            /* margin: 20px; */
         }
+
+        h1 {
+            text-align: center;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #a6abef;
+        }
+
+        th:nth-child(1) {
+            width: 10%;
+        }
+
+        th:nth-child(2) {
+            width: 50%;
+        }
+
     </style>
 </head>
 <body>
     {% include 'header.html' %}
-    <main>
-        <section class="portfolio">
-            <h1>My work</h1>
-            <div class="projects">
-                <div class="project">
-                    <img src="{{ url_for('static', filename='img/project1.jpg') }}" alt="Проект 1">
-                    <h2>Проект 1</h2>
-                    <p>Описание проекта 1.</p>
-                </div>
-                <div class="project">
-                    <img src="{{ url_for('static', filename='img/project2.jpg') }}" alt="Проект 2">
-                    <h2>Проект 2</h2>
-                    <p>Описание проекта 2.</p>
-                </div>
-                <!-- Добавьте больше проектов по мере необходимости -->
-            </div>
-        </section>
-    </main>
+    <table border="1">
+        <tr>
+            <th>Название проекта</th>
+            <th>Описание</th>
+            <th>Дата</th>
+            <th>Инструменты и технологии</th>
+            <th>Роль</th>
+        </tr>
+        {% for project in projects %}
+        <tr>
+            <td>{{ project.name }}</td>
+            <td>{{ project.description }}</td>
+            <td>{{ project.date }}</td>
+            <td>{{ project.tools }}</td>
+            <td>{{ project.role }}</td>
+        </tr>
+        {% endfor %}
+    </table>
 </body>
 </html>
+
+
+<!-- <main>
+    <section class="portfolio">
+        <h1>My work</h1>
+        <div class="projects">
+            <div class="project">
+                <img src="{{ url_for('static', filename='img/project1.jpg') }}" alt="Проект 1">
+                <h2>Проект 1</h2>
+                <p>Описание проекта 1.</p>
+            </div>
+            <div class="project">
+                <img src="{{ url_for('static', filename='img/project2.jpg') }}" alt="Проект 2">
+                <h2>Проект 2</h2>
+                <p>Описание проекта 2.</p>
+            </div>
+        </div>
+    </section>
+</main> -->
