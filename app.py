@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 projects = [
     {
-        "name": "Проект 1",
+        "name": "Проект 15",
         "description": "Краткое описание проекта 1",
         "date": "Январь 2022 - Март 2022",
         "tools": "HTML, CSS, JavaScript, React",
