@@ -1,29 +1,9 @@
 from flask import Flask, render_template
+from projects import projects
 
 app = Flask(__name__)
 
-projects = [
-    
-    {
-        "name": "Information Dashboards",
-        "description": "\
-    I developed comprehensive information dashboards tailored for executive management.\
-    These dashboards provided a real-time overview of key production metrics, empowering leadership to monitor performance indicators and swiftly respond to any fluctuations or emerging issues.\
-    This initiative significantly improved decision-making processes and operational efficiency by ensuring that critical data was always accessible and actionable.",
-        "date": "Январь 2022,Март 2022",
-        "tools": "- Python,- Jupyter notebook,- Apache Airflow,- SQLAlchemy,- Seaborn,- Matplotlib",
-        # "role": "Разработчик интерфейса",
-    },
 
-    {
-        "name": "Проект 2",
-        "description": "Краткое описание проекта 2",
-        "date": "Июнь 2021,Август 2021",
-        "tools": "Python, Django",
-        # "role": "Полный стек разработчик",
-    }
-
-]
 
 @app.route('/')
 def home():
