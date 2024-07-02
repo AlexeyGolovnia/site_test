@@ -34,16 +34,13 @@
             width: 15%;
         }
 
-        th:nth-child(2) {
-            width: 55%;
-        }
-
         td:nth-child(2) {
             line-height: 1.5;
             white-space: pre-wrap;
         }
 
         td:nth-child(3) {
+            width: 10%;
             line-height: 1.5;
             white-space: pre-wrap;
             font-style: italic;
@@ -52,6 +49,7 @@
         td:nth-child(4) {
             line-height: 1.5;
             white-space: pre-wrap;
+            width: 10%;
         }
 
     </style>
@@ -67,6 +65,16 @@
             <!-- <th>Роль</th> -->
         </tr>
         {% for project in projects %}
+            {% if loop.index == 1 %}
+                <tr>
+                    <td colspan="4" style="text-align: center; color: red;">Your custom content here</td>
+                </tr>
+            {% endif %}
+            {% if loop.index == 3 %}
+                <tr>
+                    <td colspan="4" style="text-align: center; color: red;">Your custom content here</td>
+                </tr>
+            {% endif %} 
         <tr>
             <td>{{ project.name }}</td>
             <td>{{ project.description | replace('.', '.\n') }}</td>
