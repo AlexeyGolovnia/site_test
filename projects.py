@@ -72,4 +72,14 @@ projects = [
         "tools": "- Python,- Tkinter,- EasyOCR,- Apache Airflow,- PostgreSQL",
     },
 
+    {
+        "name": "Directory Export Tool",
+        "description": "\
+    I developed a tool to extract directories from an outdated proprietary system and automatically populate these data into a new system.\
+    This seamless transition enabled the organization to smoothly adopt a new automated document management system.\
+    The tool facilitated efficient data migration, ensuring continuity of operations and enhancing overall workflow automation and efficiency in document handling processes.",
+        "date": "Июнь 2021,Август 2023",
+        "tools": "- Python,- Lxml,- Pandas,- PostgreSQL,- SQLAlchemy",
+    },
+
 ]
