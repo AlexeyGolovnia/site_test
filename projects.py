@@ -40,4 +40,36 @@ projects = [
         "tools": "- Pytorch,- Hugging Face,- Apache Airflow,- SQLAlchemy,- Microsoft Azure",
     },
 
+    {
+        "name": "Business Process Refactoring",
+        "description": "\
+    As a team lead, I spearheaded the refactoring and reengineering of Product Data Management (PDM) business processes within the enterprise.\
+    The primary objective was to automate existing processes and eliminate paper-based document workflows.\
+    Through comprehensive restructuring efforts, we successfully revamped all processes, implemented electronic document management, and achieved full automation.\
+    This initiative streamlined operations, enhanced efficiency, and significantly reduced administrative overhead, marking a transformative shift towards modernized and agile business practices.",
+        "date": "Июнь 2021,Август 2023",
+        "tools": "Team Lead role",
+    },
+
+    {
+        "name": "PDM System Implementation",
+        "description": "\
+    I oversaw the implementation and ongoing support of a Product Data Management (PDM) system.\
+    This automated system facilitated the migration of all engineering and technical documentation into digital formats, ensuring immediate access to crucial documents.\
+    By implementing robust access controls, we bolstered system security, while the integrated platform significantly accelerated both the development and maintenance of documentation processes.\
+    This initiative streamlined operations, fortified data protection, and markedly enhanced productivity across engineering and document management workflows.",    
+        "date": "Июнь 2021,Август 2023",
+        "tools": "Team Lead role",
+    },
+
+    {
+        "name": "Archive Transformation",
+        "description": "\
+    I developed a tool that converts old scanned technical PDF documents into electronic formats.\
+    Following conversion, the data was processed and stored in an SQL database for subsequent use in ERP processes.\
+    This initiative streamlined access to historical data, enhanced data management efficiency, and integrated legacy documentation into modern digital workflows, thereby improving overall operational effectiveness and facilitating informed decision-making in ERP environments.",
+        "date": "Июнь 2021,Август 2023",
+        "tools": "- Python,- Tkinter,- EasyOCR,- Apache Airflow,- PostgreSQL",
+    },
+
 ]
