@@ -3,20 +3,26 @@ from flask import Flask, render_template
 app = Flask(__name__)
 
 projects = [
+    
     {
-        "name": "Проект 15",
-        "description": "Краткое описание проекта 1",
-        "date": "Январь 2022 - Март 2022",
-        "tools": "HTML, CSS, JavaScript, React",
-        "role": "Разработчик интерфейса",
+        "name": "Information Dashboards",
+        "description": "\
+    I developed comprehensive information dashboards tailored for executive management.\
+    These dashboards provided a real-time overview of key production metrics, empowering leadership to monitor performance indicators and swiftly respond to any fluctuations or emerging issues.\
+    This initiative significantly improved decision-making processes and operational efficiency by ensuring that critical data was always accessible and actionable.",
+        "date": "Январь 2022,Март 2022",
+        "tools": "- Python,- Jupyter notebook,- Apache Airflow,- SQLAlchemy,- Seaborn,- Matplotlib",
+        # "role": "Разработчик интерфейса",
     },
+
     {
         "name": "Проект 2",
         "description": "Краткое описание проекта 2",
-        "date": "Июнь 2021 - Август 2021",
+        "date": "Июнь 2021,Август 2021",
         "tools": "Python, Django",
-        "role": "Полный стек разработчик",
+        # "role": "Полный стек разработчик",
     }
+
 ]
 
 @app.route('/')

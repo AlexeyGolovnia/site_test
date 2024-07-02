@@ -31,11 +31,21 @@
         }
 
         th:nth-child(1) {
-            width: 10%;
+            width: 15%;
         }
 
         th:nth-child(2) {
-            width: 50%;
+            width: 55%;
+        }
+
+        td:nth-child(2) {
+            line-height: 1.5;
+            white-space: pre-wrap;
+        }
+
+        td:nth-child(3), td:nth-child(4) {
+            line-height: 1.5;
+            white-space: pre-wrap;
         }
 
     </style>
@@ -44,19 +54,19 @@
     {% include 'header.html' %}
     <table border="1">
         <tr>
-            <th>Название проекта</th>
-            <th>Описание</th>
-            <th>Дата</th>
-            <th>Инструменты и технологии</th>
-            <th>Роль</th>
+            <th>Project name</th>
+            <th>Description</th>
+            <th>Tools and technologies</th>
+            <th>Date</th>
+            <!-- <th>Роль</th> -->
         </tr>
         {% for project in projects %}
         <tr>
             <td>{{ project.name }}</td>
-            <td>{{ project.description }}</td>
-            <td>{{ project.date }}</td>
-            <td>{{ project.tools }}</td>
-            <td>{{ project.role }}</td>
+            <td>{{ project.description | replace('.', '.\n') }}</td>
+            <td>{{ project.tools | replace(',', '\n') }}</td>
+            <td>{{ project.date | replace(',', '\n') }}</td>
+            <!-- <td>{{ project.role }}</td> -->
         </tr>
         {% endfor %}
     </table>
