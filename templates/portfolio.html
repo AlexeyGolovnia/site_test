@@ -62,7 +62,6 @@
             <th>Description</th>
             <th>Tools and technologies</th>
             <th>Date</th>
-            <!-- <th>Роль</th> -->
         </tr>
         {% for project in projects %}
             {% if loop.index == 1 %}
@@ -76,11 +75,10 @@
                 </tr>
             {% endif %} 
         <tr>
-            <td>{{ project.name }}</td>
+            <td>{{ project.name | safe }}</td>
             <td>{{ project.description | replace('.', '.\n') }}</td>
             <td>{{ project.tools | replace(',', '\n') }}</td>
             <td>{{ project.date | replace(',', '\n') }}</td>
-            <!-- <td>{{ project.role }}</td> -->
         </tr>
         {% endfor %}
     </table>
@@ -88,20 +86,3 @@
 </html>
 
 
-<!-- <main>
-    <section class="portfolio">
-        <h1>My work</h1>
-        <div class="projects">
-            <div class="project">
-                <img src="{{ url_for('static', filename='img/project1.jpg') }}" alt="Проект 1">
-                <h2>Проект 1</h2>
-                <p>Описание проекта 1.</p>
-            </div>
-            <div class="project">
-                <img src="{{ url_for('static', filename='img/project2.jpg') }}" alt="Проект 2">
-                <h2>Проект 2</h2>
-                <p>Описание проекта 2.</p>
-            </div>
-        </div>
-    </section>
-</main> -->

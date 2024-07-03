@@ -136,4 +136,15 @@ projects = [
         "tools": "- Intermech Search,- Intermech workflow,- Intermech TechCard,- Intermech Imbase,- PostgreSQL",
     },
 
+    {
+        "name": "iPhone Daily Planner\
+    <a href='https://github.com/AlexeyGolovnia/diary_events' target='_blank'>GitHub</a>",
+        "description": "\
+    I undertook a personal project using Swift to develop a daily planner app for my iPhone.\
+    I implemented all the necessary functionalities, including reminders and widgets.\
+    This self-developed app allowed me to move away from the limitations of existing applications, significantly enhancing the convenience of using my iPhone and boosting my productivity.",
+        "date": "Июнь 2021,Август 2023",
+        "tools": "- Swift,- SwiftUI,- WidgetKit,- UserNotifications",
+    },
+
 ]
