@@ -7,7 +7,7 @@ projects = [
     These dashboards provided a real-time overview of key production metrics, empowering leadership to monitor performance indicators and swiftly respond to any fluctuations or emerging issues.\
     This initiative significantly improved decision-making processes and operational efficiency by ensuring that critical data was always accessible and actionable.",
         "date": "Январь 2022,Март 2022",
-        "tools": "- Python,- Pandas,- Apache Airflow,- SQLAlchemy,- Matplotlib",
+        "tools": "- Python,- Pandas,- SQLAlchemy,- PostgreSQL,- Matplotlib",
     },
 
     {
@@ -122,6 +122,18 @@ projects = [
     The automation significantly improved efficiency, accuracy, and transparency in the engineering workflow.",
         "date": "Июнь 2021,Август 2023",
         "tools": "- Intermech Search,- Intermech workflow,- Intermech CadMech,- Intermech Imbase,- Autodesk Inventor",
+    },
+
+    {
+        "name": "Technological Document Workflow",
+        "description": "\
+    I automated the technological document workflow at the enterprise.\
+    I developed the necessary forms and approval processes for documentation.\
+    Essential directories were exported from the existing system.\
+    Once a technological document was created, all data were automatically transferred to the ERP system for further processing.\
+    This automation streamlined the workflow, ensuring seamless integration with the ERP system and enhancing overall efficiency in handling technological documentation.",
+        "date": "Июнь 2021,Август 2023",
+        "tools": "- Intermech Search,- Intermech workflow,- Intermech TechCard,- Intermech Imbase,- PostgreSQL",
     },
 
 ]
