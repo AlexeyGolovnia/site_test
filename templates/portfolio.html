@@ -35,6 +35,7 @@
         }
 
         td:nth-child(2) {
+            /* width: 62%; */
             line-height: 1.5;
             white-space: pre-wrap;
         }
@@ -66,14 +67,19 @@
         {% for project in projects %}
             {% if loop.index == 1 %}
                 <tr>
-                    <td colspan="4" style="text-align: center; color: red;">Your custom content here</td>
+                    <td colspan="4" style="text-align: center; color: red;">Paidwork sp. z o.o.</td>
                 </tr>
             {% endif %}
             {% if loop.index == 3 %}
                 <tr>
-                    <td colspan="4" style="text-align: center; color: red;">Your custom content here</td>
+                    <td colspan="4" style="text-align: center; color: red;">Minsk Electrotechnical Plant</td>
                 </tr>
             {% endif %} 
+            {% if loop.index == 14 %}
+                <tr>
+                    <td colspan="4" style="text-align: center; color: red;">Pet-projects</td>
+                </tr>
+            {% endif %}
         <tr>
             <td>{{ project.name | safe }}</td>
             <td>{{ project.description | replace('.', '.\n') }}</td>
