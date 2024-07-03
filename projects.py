@@ -137,14 +137,53 @@ projects = [
     },
 
     {
-        "name": "iPhone Daily Planner\
-    <a href='https://github.com/AlexeyGolovnia/diary_events' target='_blank'>GitHub</a>",
+        "name": "<a href='https://github.com/AlexeyGolovnia/diary_events' target='_blank'>iPhone Daily Planner</a>",
         "description": "\
     I undertook a personal project using Swift to develop a daily planner app for my iPhone.\
     I implemented all the necessary functionalities, including reminders and widgets.\
     This self-developed app allowed me to move away from the limitations of existing applications, significantly enhancing the convenience of using my iPhone and boosting my productivity.",
         "date": "Июнь 2021,Август 2023",
         "tools": "- Swift,- SwiftUI,- WidgetKit,- UserNotifications",
+    },
+
+    {
+        "name": "<a href='https://github.com/AlexeyGolovnia/prometheus_project' target='_blank'>Website Monitoring</a>",
+        "description": "\
+    This was an educational project focused on tracking website visits with visualization in Grafana and notifications in Telegram.\
+    The solution was deployed in Docker, providing a comprehensive monitoring system that allowed for real-time tracking, insightful visualizations, and prompt notifications to ensure optimal website performance and user engagement.",
+        "date": "Июнь 2021,Август 2023",
+        "tools": "- Prometheus,- Alertmanager,- Grafana,- Docker,- Telegram-bot",
+    },
+
+    {
+        "name": "<a href='https://github.com/AlexeyGolovnia/visa_center_bot' target='_blank'>Visa Slot Bot</a>",
+        "description": "\
+    I developed this project for personal use to secure a visa appointment.\
+    Available slots were quickly taken, and I didn't want to pay intermediaries.\
+    My program continuously monitored for available slots and sent notifications to my phone when slots opened up.\
+    This solution allowed me to efficiently secure an appointment without the need for third-party services.",
+        "date": "Июнь 2021,Август 2023",
+        "tools": "- Python,- Selenium,- Telegram-bot",
+    },
+
+    {
+        "name": "<a href='https://github.com/AlexeyGolovnia/site_test' target='_blank'>Portfolio Website</a>",
+        "description": "\
+    I developed this portfolio website as a promotional tool using Flask.\
+    It is hosted on a remote virtual machine on Microsoft Azure and deployed using Docker.\
+    The website serves as a showcase of my skills and projects, providing a professional online presence that highlights my work and expertise.",
+        "date": "Июнь 2021,Август 2023",
+        "tools": "- Python,- Flask,- Nginx,- Certbot,- Docker",
+    },
+
+    {
+        "name": "<a href='https://github.com/AlexeyGolovnia/digit_recognition' target='_blank'>Handwritten Text Recognition</a>",
+        "description": "\
+    I devised this educational project for myself to delve into the workings of a multilayer perceptron with backpropagation.\
+    Using only Numpy, I implemented a system for recognizing handwritten text without relying on other machine learning libraries.\
+    This project allowed me to gain a deeper understanding of neural networks and their applications in pattern recognition, reinforcing my proficiency in implementing machine learning algorithms from scratch.",
+        "date": "Июнь 2021,Август 2023",
+        "tools": "- Python,- Numpy,- Tkinter,- OpenCV",
     },
 
 ]
