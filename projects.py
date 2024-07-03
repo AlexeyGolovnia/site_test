@@ -37,7 +37,7 @@ projects = [
     This model automatically processes the document and transfers the data to a database for further handling and storage.\
     By leveraging natural language processing, the system accurately categorizes documents, streamlining data management processes and ensuring efficient document verification workflows.",
         "date": "Июнь 2021,Август 2023",
-        "tools": "- Pytorch,- Hugging Face,- Apache Airflow,- SQLAlchemy,- Microsoft Azure",
+        "tools": "- Hugging Face,- Scikit-learn,- SQLAlchemy,- Pandas,- Microsoft Azure",
     },
 
     {
@@ -100,6 +100,28 @@ projects = [
     This work enabled the automation of several critical business processes, significantly enhancing efficiency and streamlining the workflow in production order management.",
         "date": "Июнь 2021,Август 2023",
         "tools": "- Apache Airflow,- PostgreSQL,- SQLAlchemy,- Lxml,- Pandas",
+    },
+
+    {
+        "name": "Office Document Workflow",
+        "description": "\
+    I transitioned the enterprise's office document workflow to a digital format.\
+    This included implementing access controls, creating a user-friendly archive search, and enabling management to conveniently assign tasks, monitor their progress, and obtain detailed reports on any office document.\
+    This digital transformation improved efficiency, enhanced oversight, and provided comprehensive insights into document management and task tracking.",
+        "date": "Июнь 2021,Август 2023",
+        "tools": "- Intermech Search,- Intermech workflow,- Pymupdf,- Pandas,- Seaborn",
+    },
+
+    {
+        "name": "Engineering Document Workflow",
+        "description": "\
+    I automated the engineering document workflow at the enterprise.\
+    The CAD system was standardized, and material directories and grades were exported.\
+    All engineers began working within a unified PDM system, with all documentation approval processes configured.\
+    This initiative reduced development and approval times, minimized errors during design, and enabled tracking of any document at various stages of production preparation.\
+    The automation significantly improved efficiency, accuracy, and transparency in the engineering workflow.",
+        "date": "Июнь 2021,Август 2023",
+        "tools": "- Intermech Search,- Intermech workflow,- Intermech CadMech,- Intermech Imbase,- Autodesk Inventor",
     },
 
 ]
