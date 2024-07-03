@@ -16,7 +16,7 @@ projects = [
     I developed a machine learning model that predicted which type of product was most likely to require repairs in the current month based on historical data.\
     This predictive model enabled proactive maintenance planning and resource allocation, ultimately reducing downtime and improving overall product reliability.",
         "date": "Июнь 2021,Август 2023",
-        "tools": "- Python,- Scikit-learn,- PostgreSQL,- Pandas",
+        "tools": "- Python,- Scikit-learn,- PostgreSQL,- Pandas,- Matplotlib",
     },
 
     {
@@ -80,6 +80,26 @@ projects = [
     The tool facilitated efficient data migration, ensuring continuity of operations and enhancing overall workflow automation and efficiency in document handling processes.",
         "date": "Июнь 2021,Август 2023",
         "tools": "- Python,- Lxml,- Pandas,- PostgreSQL,- SQLAlchemy",
+    },
+
+    {
+        "name": "User Support Program",
+        "description": "\
+    I developed a tool for logging user requests within our system.\
+    This program allowed for tracking the resolution of requests at any stage, provided management with insights into unresolved issues, and optimized the time of support staff.\
+    By streamlining the support process, the tool enhanced efficiency and ensured timely problem resolution, thereby improving overall user satisfaction and operational effectiveness.",
+        "date": "Июнь 2021,Август 2023",
+        "tools": "- Python,- Tkinter,- Apache Airflow,- PostgreSQL,- Docker",
+    },
+
+    {
+        "name": "Production Order Automation",
+        "description": "\
+    I participated in the development of a tool for generating production order forms.\
+    My responsibilities included integrating information from external sources into the application and exporting data from the completed forms to databases.\
+    This work enabled the automation of several critical business processes, significantly enhancing efficiency and streamlining the workflow in production order management.",
+        "date": "Июнь 2021,Август 2023",
+        "tools": "- Apache Airflow,- PostgreSQL,- SQLAlchemy,- Lxml,- Pandas",
     },
 
 ]
