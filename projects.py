@@ -7,7 +7,7 @@ projects = [
     If the document type was initially undetermined, the model dynamically retrained itself on new data in real-time.\
     Captured data was transmitted to a server for further user verification, enhancing document recognition accuracy and enabling secure and efficient user authentication processes.\
     This adaptive learning approach ensured continuous improvement and reliability of document identification.",
-        "date": "Apr 2024,Jun 2024",
+        "date": "Apr 2024,Aug 2024",
         "tools": "- Python,- Pytorch,- OpenCV,- Multiprocessing,- Microsoft Azure",
     },
 
@@ -18,7 +18,7 @@ projects = [
     This model automatically processes the document and transfers the data to a database for further handling and storage.\
     By leveraging natural language processing, the system accurately categorizes documents, streamlining data management processes and ensuring efficient document verification workflows.",
         "date": "Jan 2024,Mar 2024",
-        "tools": "- Hugging Face,- Scikit-learn,- SQLAlchemy,- Pandas,- Microsoft Azure",
+        "tools": "- Hugging Face,- Pytorch,- SQLAlchemy,- Pandas,- Azure Databricks",
     },
 
     #--------------------------------------------------------------------------------------------------
