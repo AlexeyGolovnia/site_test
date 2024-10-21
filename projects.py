@@ -51,7 +51,7 @@ projects = [
     I developed a machine learning model that predicted which type of product was most likely to require repairs in the current month based on historical data.\
     This predictive model enabled proactive maintenance planning and resource allocation, ultimately reducing downtime and improving overall product reliability.",
         "date": "Dec 2022,Feb 2023",
-        "tools": "- Python,- Scikit-learn,- PostgreSQL,- Pandas,- Matplotlib",
+        "tools": "- Python,- Scikit-learn,- PostgreSQL,- Pyspark,- MongoDB",
     },
     
     {
@@ -61,7 +61,7 @@ projects = [
     These dashboards provided a real-time overview of key production metrics, empowering leadership to monitor performance indicators and swiftly respond to any fluctuations or emerging issues.\
     This initiative significantly improved decision-making processes and operational efficiency by ensuring that critical data was always accessible and actionable.",
         "date": "May 2021,Jan 2022",
-        "tools": "- Python,- Pandas,- SQLAlchemy,- PostgreSQL,- Matplotlib",
+        "tools": "- Pandas,- SQLAlchemy,- Pyspark,- MongoDB,- Matplotlib",
     },
 
     {
