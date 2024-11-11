@@ -61,7 +61,7 @@ projects = [
     These dashboards provided a real-time overview of key production metrics, empowering leadership to monitor performance indicators and swiftly respond to any fluctuations or emerging issues.\
     This initiative significantly improved decision-making processes and operational efficiency by ensuring that critical data was always accessible and actionable.",
         "date": "May 2021,Jan 2022",
-        "tools": "- Pandas,- SQLAlchemy,- Pyspark,- MongoDB,- Matplotlib",
+        "tools": "- Pandas,- Power BI,- Pyspark Databricks,- MongoDB,- Matplotlib,- Snowflake",
     },
 
     {
