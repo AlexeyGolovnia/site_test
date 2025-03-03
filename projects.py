@@ -1,6 +1,16 @@
 projects = [
 
     {
+        "name": "Pipelines creation and optimization",
+        "description": "\
+    I optimized the Lakehouse architecture by designing and enhancing ETL processes within the Azure Databricks ecosystem, ensuring scalability and efficiency.\
+    I leveraged low-level optimizations for User-defined functions, significantly improving pipeline performance and enabling faster data transformations.\
+    These optimizations resulted in a multifold increase in processing speed while substantially reducing data processing costs.",
+        "date": "Sep 2024,Mar 2025",
+        "tools": "- Python,- Rust,- Azure Databricks,- Databricks Workflows,- Pyspark,- Polars,- Snowflake",
+    },
+
+    {
         "name": "Document Video Registration",
         "description": "\
     I developed a real-time machine learning model that identifies document types using camera data.\
